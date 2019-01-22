@@ -1,1 +1,6 @@
-<h1>This is the Workouts#Index palceholder</h1>
+<% @workouts.each do |workout| %>
+<h1><%= link_to workout.workout, workout %></h1>
+<h2><%= workout.date %></h2>
+
+
+<% end %>
