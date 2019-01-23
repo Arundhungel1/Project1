@@ -1,6 +1,7 @@
+
 <% @workouts.each do |workout| %>
-<h1><%= link_to workout.workout, workout %></h1>
-<h2><%= workout.date.strftime("%A, %d %b %Y %l:%M %p") %></h2>
+<h1>Workout:  <%= link_to workout.workout, workout %></h1>
+<h3><%= workout.date.strftime("%A, %d %b %Y %l:%M %p") %></h3>
 
 
 <% end %>
