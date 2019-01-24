@@ -1,24 +1,20 @@
-# README
+###Project Title
+This is a web app I am building for my Project-1. It's a simple workout log made using Ruby on Rails with some gems such as devise, bootstrap, simple_form.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+##Prerequisites
+You need to have following software and gems installed in your system:
+-Ruby
+-Rails
+-Devise
+-Bootstrap
+-simple_form
+-Heroku for deployment
 
-* Ruby version
 
-* System dependencies
+##Deployment
+We are deploying with heroku in this project1.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+##License
+This project is licensed under the MIT License - see the LICENSE.md file for details
