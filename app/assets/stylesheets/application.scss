@@ -40,7 +40,12 @@
         text-decoration: none;
     }
 }
-
+.form-actions {
+  padding: 0px;
+  margin-top: 0px;
+  background-color: transparent;
+  border-top: none;
+}
 .container-home {
     width: 100% !important;
     min-height: 100vh;
