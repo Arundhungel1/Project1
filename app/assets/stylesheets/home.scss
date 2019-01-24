@@ -1,3 +1,29 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/*
+ * Globals
+ */
+
+
+/* Links */
+
+.cover-heading {
+    margin-top: 100px !important;
+    font-size: 65px !important;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #ffcc22 !important;
+}
+
+h2.subtitle {
+    color: white;
+}
+
+.inner.cover {
+    text-align: center;
+    height: 100vh !important;
+    width: 100%;
+    background: linear-gradient(to bottom, #34434D, white);
+}
