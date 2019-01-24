@@ -20,6 +20,12 @@ gem 'bootstrap-sass', '~> 3.4'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
 gem 'popper_js', '~> 1.14.5'
 gem 'devise', '~> 4.5'
+gem "bootstrap-sass-rails", "~> 2.2.2.0"
+gem 'bootstrap', '~> 4.0.0.alpha3.1'
+
+group :development do
+  gem 'rails_layout'
+end
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

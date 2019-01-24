@@ -10,9 +10,11 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *= require twitter/bootstrap
  *= require_self
- */
+ *= require_tree .
+
+*/
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -42,16 +44,21 @@
 .container-home {
     width: 100% !important;
     min-height: 100vh;
+
 }
 
 .navbar {
     margin-bottom: 0px !important;
-  
+    
+
 
 }
 
 .padding-fifty {
     padding: 50px !important;
+}
+.authform {
+  padding: 100px;
 }
 
 .btn {
