@@ -1,19 +1,23 @@
-<h1><%= @workouts %></h1>
+<main class="index-cover padding-fifty">
+  <h1><%= @workouts %></h1>
 
-<p><%= @workout.date.strftime("%A, %d %b %Y %l:%M %p") %> </p>
-<p><%= @workout.workout %> </p>
-<p><%= @workout.mood %> </p>
-<p><%= @workout.length %> </p>
+  <h3><%= @workout.date.strftime("%A, %d %b %Y %l:%M %p").upcase %> </h3>
+  <h3><%= @workout.workout.upcase %> </h3>
+  <h3><%= @workout.mood.upcase %> </h3>
+  <h3><%= @workout.length.upcase %> </h3>
 
 
-<h2><%= "Exercises" %></h2>
-<%= render @workout.exercises %>
+  <h2><%= "EXERCISES" %></h2>
+  <%= render @workout.exercises %>
 
-<h3><%= "Add an exercise" %></h3>
-<%= render "exercises/form" %>
+  <h3><%= "ADD AN EXERCISE" %></h3>
+  <%= render "exercises/form" %>
 
-<%= link_to "Back", root_path %>
-|
-<%= link_to "Edit", edit_workout_path(@workout) %>
-|
-<%= link_to "Delete", workout_path(@workout), method: :delete, data: { confirm: "Are you sure?"} %>
+  <button type="button" class="btn" name="button"><%= link_to "Back", root_path %></button>
+  |
+  <button type="button" class="btn" name="button"><%= link_to "Edit", edit_workout_path(@workout) %></button>
+  |
+  <button type="button" class="btn" name="button"><%= link_to "Delete", workout_path(@workout), method: :delete, data: { confirm: "Are you sure?"} %></button>
+
+
+</main>

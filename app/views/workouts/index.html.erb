@@ -1,7 +1,15 @@
+<main class="index-cover padding-fifty">
 
-<% @workouts.each do |workout| %>
-<h1>Workout:  <%= link_to workout.workout, workout %></h1>
-<h3><%= workout.date.strftime("%A, %d %b %Y %l:%M %p") %></h3>
+  <div>
+    <% @workouts.each do |workout| %>
+    <h1>WORKOUT:  <%= link_to workout.workout.upcase, workout %></h1>
+    <h3><%= workout.date.strftime("%A, %d %b %Y %l:%M %p") %></h3>
 
 
-<% end %>
+    <% end %>
+
+
+  </div>
+
+
+</main>

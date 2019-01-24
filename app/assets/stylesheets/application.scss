@@ -48,12 +48,13 @@
 }
 
 .navbar {
-    margin-bottom: 0px !important;
-    
 
+    margin-bottom: 0px !important;
+}
+.navbar-default {
+  background: #d0cec9 !important;
 
 }
-
 .padding-fifty {
     padding: 50px !important;
 }
@@ -63,7 +64,7 @@
 
 .btn {
     a {
-        color: white;
+        color: black;
     }
     input {
         color: white;
