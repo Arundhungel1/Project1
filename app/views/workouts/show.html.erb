@@ -1,10 +1,10 @@
 <main class="index-cover padding-fifty">
-  <h1><%= @workouts %></h1>
+  <h1>WORKOUT LIST<%= @workouts %></h1>
 
-  <h3><%= @workout.date.strftime("%A, %d %b %Y %l:%M %p").upcase %> </h3>
-  <h3><%= @workout.workout.upcase %> </h3>
-  <h3><%= @workout.mood.upcase %> </h3>
-  <h3><%= @workout.length.upcase %> </h3>
+  <h3>DATE: <%= @workout.date.strftime("%A, %d %b %Y %l:%M %p").upcase %> </h3>
+  <h3>BODY PART: <%= @workout.workout.upcase %> </h3>
+  <h3>MOOD: <%= @workout.mood.upcase %> </h3>
+  <h3>LENGTH: <%= @workout.length.upcase %> </h3>
 
 
   <h2><%= "EXERCISES" %></h2>
