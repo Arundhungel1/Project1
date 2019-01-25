@@ -20,7 +20,7 @@
 }
 
 h2.subtitle {
-    color: white;
+    color: aquamarine;
 }
 
 .inner.cover {
@@ -28,4 +28,12 @@ h2.subtitle {
     height: 100vh !important;
     width: 100%;
     background: linear-gradient(to bottom, #34434D, white);
+}
+.card-title {
+  font-size: 20px;
+  color: #ec777a;
+}
+.card-text {
+  font-size: 16px;
+  color: #ec777a;
 }
